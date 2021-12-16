@@ -46,5 +46,6 @@ public class CustomAdapter extends BaseAdapter {
         Picasso.get().load(MainActivity.urlsImg.get(position)).into(imgPkm);
         return imgPkm;
 
+
     }
 }
